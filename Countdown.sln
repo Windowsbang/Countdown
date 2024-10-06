@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Countdown", "Countdown\Countdown.csproj", "{8F75ABC3-1466-47F2-B8CE-EA19787363AC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "JXBJCountdown_Setup", "JXBJCountdown_Setup\JXBJCountdown_Setup.vdproj", "{383A6FD9-2573-4CDC-A099-86EEAE1CB592}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F75ABC3-1466-47F2-B8CE-EA19787363AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F75ABC3-1466-47F2-B8CE-EA19787363AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F75ABC3-1466-47F2-B8CE-EA19787363AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F75ABC3-1466-47F2-B8CE-EA19787363AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383A6FD9-2573-4CDC-A099-86EEAE1CB592}.Debug|Any CPU.ActiveCfg = Debug
+		{383A6FD9-2573-4CDC-A099-86EEAE1CB592}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E40B927-2FD4-4C9D-ADEC-FA88A7E56BA1}
+	EndGlobalSection
+EndGlobal
