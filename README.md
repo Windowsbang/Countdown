@@ -1,5 +1,5 @@
 ### Repository Details
-![jxbjsoft](https://sf.jxbjsoft.cn/assets/img/%E7%89%87%E5%A4%B4.mp4)
+<video src="https://sf.jxbjsoft.cn/assets/img/%E7%89%87%E5%A4%B4.mp4" controls>jxbjsoft</video>
 - **Repository Name**: Countdown
 - **Author**: Yihan Yan
 - **Last Update**: 06/10/2024
