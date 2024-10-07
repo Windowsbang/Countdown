@@ -31,93 +31,76 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.ShowForm2 = new System.Windows.Forms.Button();
+            this.ProgressToTime = new System.Windows.Forms.ProgressBar();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.Control;
-            this.label1.Font = new System.Drawing.Font("宋体", 26F);
-            this.label1.Location = new System.Drawing.Point(5, 43);
+            this.label1.BackColor = System.Drawing.Color.Gold;
+            this.label1.Font = new System.Drawing.Font("微软雅黑", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(12, 36);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(386, 52);
+            this.label1.Size = new System.Drawing.Size(355, 67);
             this.label1.TabIndex = 0;
             this.label1.Text = "距离:null:还有";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.Control;
-            this.label2.Font = new System.Drawing.Font("宋体", 26F, System.Drawing.FontStyle.Bold);
+            this.label2.BackColor = System.Drawing.Color.Gold;
+            this.label2.Font = new System.Drawing.Font("微软雅黑", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(376, 43);
+            this.label2.Location = new System.Drawing.Point(48, 103);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 52);
+            this.label2.Size = new System.Drawing.Size(287, 112);
             this.label2.TabIndex = 1;
-            this.label2.Text = "520";
+            this.label2.Text = "520天";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label3
+            // ProgressToTime
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.Control;
-            this.label3.Font = new System.Drawing.Font("宋体", 26F);
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label3.Location = new System.Drawing.Point(467, 43);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 52);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "天";
+            this.ProgressToTime.Location = new System.Drawing.Point(0, -3);
+            this.ProgressToTime.Maximum = 2147483647;
+            this.ProgressToTime.Name = "ProgressToTime";
+            this.ProgressToTime.Size = new System.Drawing.Size(381, 10);
+            this.ProgressToTime.TabIndex = 3;
+            this.ProgressToTime.Visible = false;
             // 
-            // label5
+            // pictureBox1
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label5.Font = new System.Drawing.Font("宋体", 72F);
-            this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label5.Location = new System.Drawing.Point(546, 2);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(132, 144);
-            this.label5.TabIndex = 4;
-            this.label5.Text = " ";
-            // 
-            // ShowForm2
-            // 
-            this.ShowForm2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ShowForm2.Location = new System.Drawing.Point(585, 43);
-            this.ShowForm2.Name = "ShowForm2";
-            this.ShowForm2.Size = new System.Drawing.Size(38, 52);
-            this.ShowForm2.TabIndex = 0;
-            this.ShowForm2.Text = "编辑";
-            this.ShowForm2.UseVisualStyleBackColor = false;
-            this.ShowForm2.Click += new System.EventHandler(this.ShowForm2_Click);
+            this.pictureBox1.BackgroundImage = global::Countdown.Properties.Resources.机械斑鸠软件新;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(147, 234);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(87, 71);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form1
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(655, 144);
+            this.BackColor = System.Drawing.Color.Gold;
+            this.ClientSize = new System.Drawing.Size(378, 344);
+            this.Controls.Add(this.ProgressToTime);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.ShowForm2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(677, 200);
-            this.MinimumSize = new System.Drawing.Size(677, 200);
             this.Name = "Form1";
-            this.Opacity = 0.8D;
+            this.Opacity = 0.4D;
             this.Text = "倒计时";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -127,9 +110,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button ShowForm2;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ProgressBar ProgressToTime;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

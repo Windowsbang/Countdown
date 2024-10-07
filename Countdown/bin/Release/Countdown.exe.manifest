@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Countdown.exe" size="542144">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Countdown.exe" size="449984">
       <assemblyIdentity name="Countdown" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>9EqORwHBp1FFZ3Gx66teq/JcsK9Ut240u6TB1tCMIwo=</dsig:DigestValue>
+        <dsig:DigestValue>sV8wAmDcwiO8YKU6zGJmsaoxqlexkmZaJHhwbHX9RYs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wfvfdlUggNnqbCB9zkWd8UkeHe6cZQBC6PGj7tcrEyI=</dsig:DigestValue>
+        <dsig:DigestValue>DpCKXE9ijUGlrLN3CBXJEaTazqtfpNzDxCbalFEii4I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -91,6 +91,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>ZjxjWchAyZaJC3F8KCRu6E+UBWD73tKjjxjtiavT4gE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\机械斑鸠软件新.png" size="4647">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tbYMdLoCETVMM48oLryrLEFp5MlANPWqQESokyX2ZT0=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

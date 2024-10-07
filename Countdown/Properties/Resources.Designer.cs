@@ -73,9 +73,9 @@ namespace Countdown.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap 机械斑鸠软件主体新白 {
+        internal static System.Drawing.Bitmap 机械斑鸠软件新 {
             get {
-                object obj = ResourceManager.GetObject("机械斑鸠软件主体新白", resourceCulture);
+                object obj = ResourceManager.GetObject("机械斑鸠软件新", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
