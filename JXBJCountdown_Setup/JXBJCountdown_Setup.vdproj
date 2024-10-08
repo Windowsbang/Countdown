@@ -575,7 +575,7 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:2683390183@qq.com"
+        "Manufacturer" = "8:机械斑鸠"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:JXBJCountdown_Setup"
@@ -687,6 +687,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1F5DC97CF6C1424D81ABCD3EA19DD340"
+            {
+            "Name" = "8:卸载 “机械斑鸠 Countdown”"
+            "Arguments" = "8:/x {AE04DF7B-67F2-4922-8554-B79B1F716A9D}"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_7896535710654571BDEF01DE193F8D9C"
+            "Folder" = "8:_C6B5B56502834108BFBACF3D68FB548A"
+            "WorkingFolder" = "8:_C6B5B56502834108BFBACF3D68FB548A"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_5EA50A14382F4EC0B59C50D0C6FE80B3"
             {
             "Name" = "8:机械斑鸠 Countdown"
@@ -727,20 +741,6 @@
             "Folder" = "8:_5951FAB61CB449F7AC0BC1BF96774BFB"
             "WorkingFolder" = "8:_C6B5B56502834108BFBACF3D68FB548A"
             "Icon" = "8:_4B7C6B074D7A4644ABB4D81F14826028"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E749EC148BF14F488FCD722DE7CEE968"
-            {
-            "Name" = "8:卸载“机械斑鸠 Countdown”"
-            "Arguments" = "8:/x {AE04DF7B-67F2-4922-8554-B79B1F716A9D}"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_7896535710654571BDEF01DE193F8D9C"
-            "Folder" = "8:_C6B5B56502834108BFBACF3D68FB548A"
-            "WorkingFolder" = "8:_C6B5B56502834108BFBACF3D68FB548A"
-            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
